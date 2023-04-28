@@ -1,0 +1,134 @@
+
+/* Admin CSS*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial,Helvetiva,sans-serif;
+    font-size: 12px;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin:0 auto;
+    
+}
+
+.text-center{
+
+    text-align: center;
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+.tbl-full{
+    width:100%;
+}
+
+.tbl-30{
+    width:30%
+}
+table tr th {
+    border-bottom: 1px solid grey;
+    padding:1%;
+    text-align: left;
+}
+
+table tr td {
+    padding:1%;
+}
+
+.btn-primary{
+    background-color: #0000FF;
+    padding:1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: blueviolet;
+}
+
+.btn-secondary{
+    background-color: #096e30;
+    padding:1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: rgb(110, 219, 168);
+}
+
+
+.btn-third{
+    background-color: #f00b0b;
+    padding:1%;
+    color: rgb(243, 238, 238);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-third:hover{
+    background-color: rgb(173, 93, 17);
+}
+
+.success
+{
+    color:#096e30;
+}
+
+.error
+{
+    color:#f00b0b;
+}
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color:blue
+}
+.menu ul li a:hover {
+    color:blueviolet
+}
+
+.main-content{
+    
+    background-color: #f2f1f0;
+}
+.col-4{
+    width:20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+}
+
+/* CSS Footer */
+.footer {
+    background-color: #0000FF;
+    color:white;
+}
+
+.login{
+    border: 1px solid gray;
+    width: 30%;
+    margin: 5% auto;
+
+}
